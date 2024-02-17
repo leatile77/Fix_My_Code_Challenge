@@ -83,7 +83,7 @@ if __name__ == '__main__':
     user_2.password = 89
     if user_2.password is not None:
         print("User.password should be None if setter to an integer")
-
+i
     if not user_1.is_valid_password(u_pwd):
         print("is_valid_password should return True if it's the right \
 password")
